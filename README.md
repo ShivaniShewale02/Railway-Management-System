@@ -1,59 +1,90 @@
-# Railway Management System
+# 🚆 Railway Management System
 
-A cutting-edge, full-stack railway management solution designed to automate ticket booking, train scheduling, and offer real-time tracking. This system provides a smooth, secure, and efficient experience for both passengers and administrators.
+A Java-based Railway Management System with a graphical user interface, designed to simulate core functionalities like user registration, train search, ticket booking, and admin management. Built as a desktop application using **Java** and **JDBC** for database interaction with **MySQL**.
 
-## Table of Contents
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Project](#running-the-project)
-- [Database Schema](#database-schema)
-- [Security Measures](#security-measures)
-- [License](#license)
-- [Contact](#contact)
+---
 
-## Live Demo
+## ✨ Features
 
-Demo URL: Coming Soon...
+- 🔹 User Registration and Login
+- 🔹 Admin Login with Control Panel
+- 🔹 Add, Update, Delete Train Details (Admin)
+- 🔹 Search Trains by Route
+- 🔹 Book and Cancel Tickets
+- 🔹 View Booking History
+- 🔹 Interactive GUI with Java Swing
 
-## Features
-- ✅ **Secure Authentication & Role Management**: Multi-tier user access (admin, passenger).
-- ✅ **Train Search, Scheduling & Tracking**: Real-time train status updates.
-- ✅ **Automated Ticket Booking & Cancellations**: Efficient, user-friendly booking system.
-- ✅ **Admin Dashboard**: Full control for admins over train schedules, bookings, and users.
-- ✅ **JWT-Based Security & Session Management**: Strong security features to prevent unauthorized access.
-- ✅ **RESTful APIs & Microservices Architecture**: Scalable and easy-to-integrate endpoints.
-- ✅ **Swagger UI for API Testing**: Simplified API testing and development.
-- ✅ **Error Logging & Monitoring**: Monitors the system for smooth troubleshooting.
+---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-| Technology           | Description                                           |
-|----------------------|-------------------------------------------------------|
-| **Java 17+**         | Core backend development                             |
-| **Spring Boot**      | Web application framework                            |
-| **Spring Security**  | Authentication & role-based access control           |
-| **Hibernate & JPA**  | ORM for database management                          |
-| **MySQL/PostgreSQL** | Database for user, train, and booking data           |
-| **Maven**            | Dependency and build management                      |
-| **Swagger**          | API documentation and testing                        |
-| **React.js**         | Frontend for UI                                       |
+- **Java (Swing)** – Frontend GUI
+- **MySQL** – Backend database
+- **JDBC** – Java Database Connectivity
 
-## Installation
+---
 
-### Prerequisites
-Make sure you have the following installed:
-- Java 17+
-- Spring Boot
-- Maven
-- MySQL/PostgreSQL
-- Postman (for API testing)
+## 📁 Folder Structure
 
-### Cloning the Repository
+```
+Railway-Management-System/
+├── src/
+│   ├── login/
+│   ├── register/
+│   ├── admin/
+│   ├── booking/
+│   └── utils/
+├── database/
+│   └── railway_db.sql
+├── README.md
+└── .gitignore
+```
 
-```bash
-git clone https://github.com/ShivaniShewale02/Railway-Management-System.git
-cd Railway-Management-System
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ShivaniShewale02/Railway-Management-System.git
+   ```
+
+2. **Import the project into your Java IDE** (Eclipse, IntelliJ, NetBeans, etc.)
+
+3. **Setup the MySQL database**
+   - Open MySQL
+   - Run the `railway_db.sql` file from the `database/` folder to create tables
+
+4. **Update DB credentials in JDBC connection file**
+
+5. **Run the application**
+   - Start with the main login window
+   - Use default admin credentials (if provided)
+
+---
+
+## 📌 Future Enhancements
+
+- Integrate payment gateway
+- Improve UI/UX with better design frameworks
+- Add email notifications for bookings
+- Add train live tracking (API-based)
+
+---
+
+## 🙋‍♀️ Author
+
+**Shivani Shewale**  
+📧 [LinkedIn](https://www.linkedin.com/in/shivani-shewale-02)  
+💻 [GitHub](https://github.com/ShivaniShewale02)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+⭐ If you found this useful, give it a ⭐ on GitHub!
 
