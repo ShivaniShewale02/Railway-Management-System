@@ -6,13 +6,19 @@ A Java-based Railway Management System with a graphical user interface, designed
 
 ## ✨ Features
 
-- 🔹 User Registration and Login
-- 🔹 Admin Login with Control Panel
-- 🔹 Add, Update, Delete Train Details (Admin)
-- 🔹 Search Trains by Route
-- 🔹 Book and Cancel Tickets
-- 🔹 View Booking History
-- 🔹 Interactive GUI with Java Swing
+🔹 User Registration and Login
+
+🔹 Admin Login with Control Panel
+
+🔹 Add, Update, Delete Train Details (Admin)
+
+🔹 Search Trains by Route
+
+🔹 Book and Cancel Tickets
+
+🔹 View Booking History
+
+🔹 Interactive GUI with Java Swing
 
 ---
 
