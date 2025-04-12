@@ -34,14 +34,8 @@ A Java-based Railway Management System with a graphical user interface, designed
 
 ```
 Railway-Management-System/
-├── src/
-│   ├── login/
-│   ├── register/
-│   ├── admin/
-│   ├── booking/
-│   └── utils/
-├── database/
-│   └── railway_db.sql
+├── frontend/
+├── backend/
 ├── README.md
 └── .gitignore
 ```
